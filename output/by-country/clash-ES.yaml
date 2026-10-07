@@ -17,12 +17,19 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇪🇸 西班牙 (Spain) 02 - xiaohe
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
+  type: vless
+  server: 188.114.98.134
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 - name: 🇪🇸 西班牙 (Spain) 03 - xiaohe
   type: ss
   server: 108.181.121.226
