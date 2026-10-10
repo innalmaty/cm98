@@ -33,13 +33,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  type: ss
-  server: www.asamping.ir
-  port: 1468
-  cipher: aes-128-gcm
-  password: l2NidZbckMu4PnIHsJTYJg
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
   type: vless
   server: test.keoplentuio.xyz
   port: 2053
@@ -55,7 +48,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -64,6 +56,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
 rules:
 - MATCH,PROXIES
