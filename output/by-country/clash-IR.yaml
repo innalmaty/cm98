@@ -6,16 +6,13 @@ log-level: info
 proxies:
 - name: 🇮🇷 IR 01 - xiaohe
   type: vless
-  server: hermez.bestvnxv.org
-  port: 21710
-  uuid: 4173b32a-1c85-4291-83c3-49d8ce437d02
+  server: req.apptrendv.com
+  port: 2083
+  uuid: 7cc18adc-1ef0-42c9-8e7b-722d7622c7dd
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: y1FXsWq-fLzk3Dle_2l_XSfpbBT-OtPBCkuQMMyN7hk
-  servername: cdn-apple.com
-  client-fingerprint: chrome
+  servername: email.apptrendv.com
 proxy-groups:
 - name: PROXIES
   type: select
