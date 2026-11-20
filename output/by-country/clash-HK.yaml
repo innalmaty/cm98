@@ -33,7 +33,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: vmess
   server: 47.244.120.197
@@ -48,7 +48,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: 47.244.120.197
+      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   type: ss
   server: 213.176.92.148
